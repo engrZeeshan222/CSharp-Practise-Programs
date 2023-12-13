@@ -1,0 +1,15 @@
+Z:\MyData\CSharp-Practise-Programs\Programs\obj\Debug\net6.0\Programs.csproj.AssemblyReference.cache
+Z:\MyData\CSharp-Practise-Programs\Programs\obj\Debug\net6.0\Programs.GeneratedMSBuildEditorConfig.editorconfig
+Z:\MyData\CSharp-Practise-Programs\Programs\obj\Debug\net6.0\Programs.AssemblyInfoInputs.cache
+Z:\MyData\CSharp-Practise-Programs\Programs\obj\Debug\net6.0\Programs.AssemblyInfo.cs
+Z:\MyData\CSharp-Practise-Programs\Programs\obj\Debug\net6.0\Programs.csproj.CoreCompileInputs.cache
+Z:\MyData\CSharp-Practise-Programs\Programs\bin\Debug\net6.0\Programs.exe
+Z:\MyData\CSharp-Practise-Programs\Programs\bin\Debug\net6.0\Programs.deps.json
+Z:\MyData\CSharp-Practise-Programs\Programs\bin\Debug\net6.0\Programs.runtimeconfig.json
+Z:\MyData\CSharp-Practise-Programs\Programs\bin\Debug\net6.0\Programs.dll
+Z:\MyData\CSharp-Practise-Programs\Programs\bin\Debug\net6.0\Programs.pdb
+Z:\MyData\CSharp-Practise-Programs\Programs\obj\Debug\net6.0\Programs.dll
+Z:\MyData\CSharp-Practise-Programs\Programs\obj\Debug\net6.0\refint\Programs.dll
+Z:\MyData\CSharp-Practise-Programs\Programs\obj\Debug\net6.0\Programs.pdb
+Z:\MyData\CSharp-Practise-Programs\Programs\obj\Debug\net6.0\Programs.genruntimeconfig.cache
+Z:\MyData\CSharp-Practise-Programs\Programs\obj\Debug\net6.0\ref\Programs.dll
