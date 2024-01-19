@@ -42,7 +42,8 @@ do
     {
         Console.WriteLine("You entered invalid Numbers, Please enter valid numbers!");
         var newMarks = Console.ReadLine();
-        marksEntered = Convert.ToInt32(newMarks);
+
+        marksEntered = Convert.TryParse(newMarks);
     }
     Console.WriteLine("Verify Please! we are taking your entered marks as: {0}", marksEntered);
 
