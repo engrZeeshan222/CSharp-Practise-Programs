@@ -26,85 +26,88 @@ using System.ComponentModel;
 using System.Linq.Expressions;
 
 
-var isMarkedEntered = false;
-do
-{
-    Console.WriteLine("Welcome to Grade Calculator!");
-    Console.WriteLine("Please enter marks of student to calculate its Grade!");
-    var enteredStudentMarks = Console.ReadLine();
+//var isMarkedEntered = false;
+//do
+//{
+//    Console.WriteLine("Welcome to Grade Calculator!");
+//    Console.WriteLine("Please enter marks of student to calculate its Grade!");
+//    var enteredStudentMarks = Console.ReadLine();
 
 
-    // Processing Now
-    // convert string enetered marks to int 
-    int marksEntered = Convert.ToInt32(enteredStudentMarks);
+//    // Processing Now
+//    // convert string enetered marks to int 
+//    int marksEntered = Convert.ToInt32(enteredStudentMarks);
 
-    while (marksEntered > 100 || marksEntered < 0 || marksEntered <= -1)
-    {
-        Console.WriteLine("You entered invalid Numbers, Please enter valid numbers!");
-        var newMarks = Console.ReadLine();
+//    while (marksEntered > 100 || marksEntered < 0 || marksEntered <= -1)
+//    {
+//        Console.WriteLine("You entered invalid Numbers, Please enter valid numbers!");
+//        var newMarks = Console.ReadLine();
 
-        marksEntered = Convert.TryParse(newMarks);
-    }
-    Console.WriteLine("Verify Please! we are taking your entered marks as: {0}", marksEntered);
+//        marksEntered = Convert.TryParse(newMarks);
+//    }
+//    Console.WriteLine("Verify Please! we are taking your entered marks as: {0}", marksEntered);
 
-    switch (marksEntered)
-    {
-        case int marks when (marks >= 90 && marks <= 100):
-            {
-                Console.WriteLine(Comments.Excellent + "! Your Grade is A for the entered marks : {0}", marksEntered);
-            }
-            break;
-        case int marks when (marks >= 80 && marks <= 89):
-            {
-                Console.WriteLine(Comments.Good + "! Your Grade is B for the entered marks : {0}", marksEntered);
-            }
-            // code block
-            break;
-        case int marks when (marks >= 70 && marks <= 79):
-            {
-                Console.WriteLine(Comments.Average + "! Your Grade is C for the entered marks : {0}", marksEntered);
-            }
-            break;
-        case int marks when (marks >= 60 && marks <= 69):
-            {
-                Console.WriteLine(Comments.Below_Average+ "! Your Grade is D for the entered marks : {0}", marksEntered);
-            }
-            break;
-        case int marks when (marks >= 0 && marks <= 50):
-            {
-                Console.WriteLine(Comments.Fail+ "! Opps - Your Grade is F for the entered marks : {0}", marksEntered);
-            }
-            break;
-    }
+//    switch (marksEntered)
+//    {
+//        case int marks when (marks >= 90 && marks <= 100):
+//            {
+//                Console.WriteLine(Comments.Excellent + "! Your Grade is A for the entered marks : {0}", marksEntered);
+//            }
+//            break;
+//        case int marks when (marks >= 80 && marks <= 89):
+//            {
+//                Console.WriteLine(Comments.Good + "! Your Grade is B for the entered marks : {0}", marksEntered);
+//            }
+//            // code block
+//            break;
+//        case int marks when (marks >= 70 && marks <= 79):
+//            {
+//                Console.WriteLine(Comments.Average + "! Your Grade is C for the entered marks : {0}", marksEntered);
+//            }
+//            break;
+//        case int marks when (marks >= 60 && marks <= 69):
+//            {
+//                Console.WriteLine(Comments.Below_Average+ "! Your Grade is D for the entered marks : {0}", marksEntered);
+//            }
+//            break;
+//        case int marks when (marks >= 0 && marks <= 50):
+//            {
+//                Console.WriteLine(Comments.Fail+ "! Opps - Your Grade is F for the entered marks : {0}", marksEntered);
+//            }
+//            break;
+//    }
     
     
-    Console.WriteLine("Would you want to calculate grade for other students marks, entere yes otherwise No!  OR Press any key to exit");
-    var marksEneteredNew = Console.ReadLine();
-    if (marksEneteredNew.Trim().ToLower() == "yes")
-    {
-        isMarkedEntered = true;
-    }
-    else if (marksEneteredNew.Trim().ToLower() == "no" || marksEneteredNew == "")
-    {
-        isMarkedEntered = false;
-    }
-} while (isMarkedEntered);
+//    Console.WriteLine("Would you want to calculate grade for other students marks, entere yes otherwise No!  OR Press any key to exit");
+//    var marksEneteredNew = Console.ReadLine();
+//    if (marksEneteredNew.Trim().ToLower() == "yes")
+//    {
+//        isMarkedEntered = true;
+//    }
+//    else if (marksEneteredNew.Trim().ToLower() == "no" || marksEneteredNew == "")
+//    {
+//        isMarkedEntered = false;
+//    }
+//} while (isMarkedEntered);
 
 
-public enum Comments
-{
-    [Description("Excellent")]
-    Excellent,
+//public enum Comments
+//{
+//    [Description("Excellent")]
+//    Excellent,
 
-    [Description("Good")]
-    Good,
+//    [Description("Good")]
+//    Good,
 
-    [Description("Average")]
-    Average,
+//    [Description("Average")]
+//    Average,
 
-    [Description("Below Average")]
-    Below_Average,
+//    [Description("Below Average")]
+//    Below_Average,
 
-    [Description("Fail")]
-    Fail
-};
+//    [Description("Fail")]
+//    Fail
+//};
+
+
+//-------------------------------------------------------------------------------------- 
